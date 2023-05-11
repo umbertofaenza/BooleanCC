@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-image: url(img/background.jpg);
+  background-size: cover;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.black-container {
+  width: 800px;
+  height: 576px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  margin: 20px auto 0;
+}
+
+.container {
+  padding: 50px;
+}
+
+/* HEADER */
+
+header {
+  text-align: center;
+}
+
+h1 {
+  color: #35dd00;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.logo {
+  width: 176px;
+  height: 78px;
+}
+
+/* NAV */
+
+nav {
+  background-color: #35dd00;
+  margin: 2px auto;
+  padding: 10px;
+}
+
+.buttons {
+  width: fit-content;
+  margin: auto;
+}
+
+/* MAIN */
+
+.sezione-monopattino {
+  padding: 10px;
+}
+
+input[type=checkbox] {
+  transform: scale(0.7);
+}
+
+h2 {
+  display: inline-block;
+  font-size: 20px;
+  color: white;
+}
+
+h3, .sezione-monopattino > span {
+  font-size: 12px;
+  font-weight: 400;
+  color: white;
+}
+
+h3:before {
+  content: '\21A6  ';
+}
+
+.carica {
+  height: 20px;
+  border-radius: 5px;
+}
+
+.bassa {
+  width: 25%;
+  background-color: red;
+}
+
+.media {
+  width: 50%;
+  background-color: orange;
+}
+
+.alta {
+  width: 75%;
+  background-color: green;
+}
